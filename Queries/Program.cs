@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Queries
@@ -23,9 +24,15 @@ namespace Queries
             var query = movies.Where(m => m.Year >= 2000);
             //var query = movies.Filter(m => m.Year >= 2000);
 
-            foreach (var movie in movies)
+            Console.WriteLine(query.Count());
+            //foreach (var movie in movies)
+            //{
+            //    System.Console.WriteLine(movie.Title);
+            //}
+            var enumerator = query.GetEnumerator();
+            while (enumerator.MoveNext())
             {
-                System.Console.WriteLine(movie.Title);
+                Console.WriteLine(enumerator.Current.Title);
             }
         }
     }

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqSamples", "LinqSamples\LinqSamples.csproj", "{565E7643-4259-4DB4-A30F-742207CF3C20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Features", "Features\Features.csproj", "{C2962939-17C4-49D9-9F9A-87E5BD19B50A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queries", "Queries\Queries.csproj", "{718E4A88-1C25-4698-BBA0-46A6E8374B7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{565E7643-4259-4DB4-A30F-742207CF3C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{565E7643-4259-4DB4-A30F-742207CF3C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{565E7643-4259-4DB4-A30F-742207CF3C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{565E7643-4259-4DB4-A30F-742207CF3C20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2962939-17C4-49D9-9F9A-87E5BD19B50A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2962939-17C4-49D9-9F9A-87E5BD19B50A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2962939-17C4-49D9-9F9A-87E5BD19B50A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2962939-17C4-49D9-9F9A-87E5BD19B50A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{718E4A88-1C25-4698-BBA0-46A6E8374B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{718E4A88-1C25-4698-BBA0-46A6E8374B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{718E4A88-1C25-4698-BBA0-46A6E8374B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{718E4A88-1C25-4698-BBA0-46A6E8374B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15E71934-C8A1-44AC-BFDA-081DCBDE5170}
+	EndGlobalSection
+EndGlobal

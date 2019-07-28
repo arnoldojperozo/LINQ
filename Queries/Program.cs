@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace Queries
 {
@@ -19,8 +20,8 @@ namespace Queries
                 new Movie { Title = "Empire Strikes Back", Year = 1980, Rating = 9.5f },
             };
 
-            //var query = movies.Where(m => m.Year >= 2000);
-            var query = movies.Filter(m => m.Year >= 2000);
+            var query = movies.Where(m => m.Year >= 2000);
+            //var query = movies.Filter(m => m.Year >= 2000);
 
             foreach (var movie in movies)
             {
